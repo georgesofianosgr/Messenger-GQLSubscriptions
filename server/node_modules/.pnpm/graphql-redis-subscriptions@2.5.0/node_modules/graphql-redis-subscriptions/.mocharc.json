@@ -1,6 +1,0 @@
-{
-  "ui": "bdd",
-  "exit": true,
-  "check-leaks": true,
-  "require": ["ts-node/register"]
-}
