@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "ts-node-esm ./index.ts",
+    "build": "tsc --build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.0.3",
+    "@graphql-tools/schema": "^9.0.4",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.14",
+    "@types/node": "^18.11.5",
+    "@types/ws": "^8.5.3",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "graphql": "^16.6.0",
+    "graphql-redis-subscriptions": "^2.5.0",
+    "graphql-ws": "^5.11.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4",
+    "ws": "^8.10.0"
+  }
+}
